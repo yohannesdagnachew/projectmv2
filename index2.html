@@ -1,8 +1,18 @@
-
 <html>
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form id="survey-form"></form>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label for="Name">Name</label><br />
+      <input type="text" id="name" required /><br />
+
+      <label for="email">Email</label><br />
+      <input type="email" id="email" required /><br />
+
+      <label for="">Age</label><br />
+      <input type="number" id="number" max="65" min="21" /><br />
+    </form>
   </body>
 </html>
