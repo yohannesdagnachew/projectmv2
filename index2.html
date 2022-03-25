@@ -1,4 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trial Project</title>
   <style>
     .b1 {
       font-size: 36px;
@@ -12,13 +18,28 @@
       font-size: 18px;
       font-weight: bold;
     }
+    
+    .container{
+      max-width:650px;
+      margin:0 auto;
+      padding: 30px 30px;
+      border: 1px solid rgb(23, 23, 43);
+      background-color: rgb(23, 23, 43);
+      color: white;
+      border-radius:5px;
+
+    }
   </style>
+</head>
+  
 
   <body>
+    
     <h1 class="b1" id="title">freeCodeCamp Survey Form</h1>
     <p id="description" class="b2">
       Thank you for taking the time to help us improve the platform
     </p>
+    <div class="container">
     <form action="https://www.freecodecamp.org" id="survey-form">
       <label class="b3" for="Name" id="name-label">Name</label><br />
       <input type="text" id="name" required placeholder="Name" /><br />
@@ -70,7 +91,7 @@
       <input type="checkbox" name="reco1" id="checkbox1" /><label
         for="reco1"
         id="lbchekbox1"
-        >Frot-end projects</label
+        >Front-end projects</label
       ><br />
       <input type="checkbox" name="reco2" id="checkbox2" /><label
         for="reco2"
@@ -96,6 +117,7 @@
       <textarea placeholder="Enter  your comments here..."></textarea><br />
       <button id="submit">Submit</button>
     </form>
+  </div>
   </body>
 </html>
 
