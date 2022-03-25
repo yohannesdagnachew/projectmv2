@@ -1,5 +1,6 @@
 <html>
   <style>
+
     .b1 {
       font-size: 36px;
       font-weight: bold;
@@ -12,13 +13,26 @@
       font-size: 18px;
       font-weight: bold;
     }
+    
+    .container{
+      max-width:900px;
+      margin:0 auto;
+      padding: 30px 30px;
+      border: 1px solid rgb(23, 23, 43);
+      background-color: rgb(23, 23, 43);
+      color: white;
+      border-radius:5px;
+
+    }
   </style>
 
   <body>
+    
     <h1 class="b1" id="title">freeCodeCamp Survey Form</h1>
     <p id="description" class="b2">
       Thank you for taking the time to help us improve the platform
     </p>
+    <div class="container">
     <form action="https://www.freecodecamp.org" id="survey-form">
       <label class="b3" for="Name" id="name-label">Name</label><br />
       <input type="text" id="name" required placeholder="Name" /><br />
@@ -96,6 +110,7 @@
       <textarea placeholder="Enter  your comments here..."></textarea><br />
       <button id="submit">Submit</button>
     </form>
+  </div>
   </body>
 </html>
 
