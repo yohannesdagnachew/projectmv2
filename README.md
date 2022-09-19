@@ -26,11 +26,11 @@ Go to the Folder where want to copy this repo and type the following cmds in you
 
 ## Live Demo
 
-[Live Demo Link](https://angomranjan.github.io/odin-recipes/)
+[Live Demo Link](https://angomranjan.github.io/projectmv2/)
 
 ## Source Code
 
-[Source Code] (https://github.com/AngomRanjan/odin-recipes)
+[Source Code] (https://github.com/AngomRanjan/projectmv2)
 
 ## Authors
 
@@ -48,11 +48,11 @@ Go to the Folder where want to copy this repo and type the following cmds in you
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AngomRanjan/odin-recipes/issues).
+Feel free to check the [issues page](https://github.com/AngomRanjan/projectmv2/issues).
 
 ## Show your support
 
-Give a [⭐️](https://github.com/AngomRanjan/odin-recipes/stargazers) if you like this project!
+Give a [⭐️](https://github.com/AngomRanjan/projectmv2/stargazers) if you like this project!
 
 ## :footprints: Track Me
 
