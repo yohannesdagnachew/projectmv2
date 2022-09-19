@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-  </head>
 
-  <body>
-    Hello everyone
-    We are software Developers
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trial Project</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1 class="b1" id="title">freeCodeCamp Survey Form</h1>
+  <p id="description" class="b2">
+    Thank you for taking the time to help us improve the platform
+  </p>
+  <div class="container">
+    <form action="https://www.freecodecamp.org" id="survey-form">
+      <label class="b3" for="Name" id="name-label">Name</label><br />
+      <input type="text" id="name" required placeholder="Name" /><br />
+
+      <label class="b3" for="email" id="email-label">Email</label><br />
+      <input type="email" id="email" required placeholder="Email" /><br />
+      <label class="b3" for="" id="number-label">Age
+        <span class="opt">(Optional)</span></label><br />
+      <input type="number" id="number" max="65" min="21" placeholder="Age" /><br />
+      <p class="b3">Which option best describes your current role?</p>
+      <select id="dropdown">
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Others</option>
+      </select>
+      <p class="b3">Would you recommend freeCodeCamp to a friend?</p>
+      <input type="radio" name="reco" id="radio1" value="radio1" checked="checked" />
+      <label for="radio1" id="lblRadio1">Definitely</label><br />
+      <input type="radio" name="reco" id="radio2" value="radio2" />
+      <label for="radio2" id="lblRadio2">Maybe</label><br />
+      <input type="radio" name="reco" id="radio2" value="radio3" />
+      <label for="radio3" id="lblRadio3">Not Sure</label><br />
+      <p class="b3">
+        What would you like to see improved? (Check all that apply)
+      </p>
+      <input type="checkbox" name="reco1" id="checkbox1" value="checkbox1" />
+      <label for="reco1" id="lbchekbox1">Front-end projects</label><br />
+      <input type="checkbox" name="reco2" id="checkbox2" value="checkbox2" />
+      <label for="reco2" id="lbchekbox2">Back-end projects</label><br />
+      <input type="checkbox" name="reco3" id="checkbox3" value="checkbox5" />
+      <label for="reco3" id="lbchekbox3">Data Visulazation</label><br />
+      <input type="checkbox" name="reco4" id="checkbox4" value="checkbox5" />
+      <label for="reco4"id="lbchekbox4">challenges</label><br />
+      <input type="checkbox" name="reco5" id="checkbox5" value="checkbox5" />
+      <label for="reco5" id="lbchekbox5">Open source comminity</label><br />
+      <p class="b3 bt2">Any comments or suggestions?</p>
+      <textarea class="text-area" placeholder="Enter  your comments here..."></textarea><br />
+      <button type="button" id="submit" class="bt">Submit</button>
+    </form>
+  </div>
+</body>
+
 </html>
